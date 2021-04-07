@@ -13,7 +13,7 @@ def mainMenu():
 	print("=== Downloads das observações GNSS das estações da RBMC e das efemérides precisas do IGS ===\n")
 	print("[1]-Baixar dados desde 01/01/" + str(minimalYear))
 	print("[2]-Baixar dados desde uma data específica")
-	print("[3]-Baixar dados de hoje - " +todayDateStr)
+	print("[3]-Baixar dados de ontem")
 	print("[4]-Sair \n")
 	choice = input("Favor digitar o número da opção desejada: ")
 	if not choice.isnumeric() or int(choice)< 1 or int(choice)>4:
