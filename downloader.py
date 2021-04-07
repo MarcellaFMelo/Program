@@ -83,7 +83,7 @@ def downloadRangeYear(pastDate,todayDate):
 	pastDate = pastDate - timedelta(1)
 	pastDateStr = str(pastDate.day).zfill(2) +"/"+str(pastDate.month).zfill(2) +"/"+ str(pastDate.year)
 	if(pastDate == todayDate - timedelta(1)):
-		print("Download de Hoje: "+ pastDateStr)
+		print("Download de ontem: "+ pastDateStr)
 	else:
 		todayDateStr = str(todayDate.day).zfill(2) +"/"+str(todayDate.month).zfill(2) +"/"+ str(todayDate.year)
 		print("Download de Periodo: "+ pastDateStr + " - " + todayDateStr)
